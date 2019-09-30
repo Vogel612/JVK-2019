@@ -26,7 +26,9 @@ public enum Texture {
     /** The default neo textures */
     NEO("neo/neo-east-0.png", "neo/neo-south-0.png", "neo/neo-west-0.png", "neo/neo-north-0.png"), 
     /** the default phone booth texture*/
-    PHONEBOOTH("phonebooth.png");
+    PHONEBOOTH("phonebooth.png")
+    /** the default texture for a single coin */
+    COIN("coin/coin-default-png");
     
     //for directional textures this is east
     private final TextureInfo info;
